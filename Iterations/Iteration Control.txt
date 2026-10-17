@@ -1,3 +1,10 @@
 0: Only Binary Levels
 1: Slight Prompt Changes to Binary Levels
 2: Complete Benchmark run
+3: First non-LLM images generated with hill step algorithm and first V2 prompt
+4: Genetic algorithm run defaults, same V2 prompt
+5: GA with 100 generations and 100 candidates and 10 elites and same V2 prompt
+6: GA with 100 generations and 100 candidates and 10 elites and same V2 prompt. Changed specific constraints and descriptions to make maps more diverse and better looking
+7: WCF baseline run with defaults
+8: WCF with 100 generations and 100 candidates, and 10 elites.
+9: WCF with constraint table
