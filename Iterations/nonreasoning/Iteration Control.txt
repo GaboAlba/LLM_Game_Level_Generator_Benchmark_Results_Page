@@ -1,3 +1,5 @@
 0: gpt-4.1 vs Noise baseline
 1: gpt-4.1 vs GA baseline
 2: gpt-4.1 vs WFC baseline
+3: gpt-4.1 (20 candidates/map) vs GA baseline
+4: gpt-4.1 (20 candidates/map) vs WFC baseline
