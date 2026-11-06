@@ -42,7 +42,7 @@ img.chart { max-width: 100%; background: #fff; border-radius: 8px; padding: 8px;
 <body><div class="container">
 <h1>PCG Benchmark Report — Reasoning Model</h1>
 <p class="subtitle">Comparing LLM-generated levels against a non-LLM random baseline.</p>
-<p class="muted"><a href="nonreasoning/index.html">Non-reasoning (gpt-4.1) report →</a></p>
+<p class="muted"><a href="nonreasoning/index.html">Non-reasoning (gpt-4.1) report → →</a></p>
 
 <h2>What is being evaluated</h2>
 <p>For each game variant the benchmark takes a set of <strong>LLM-generated</strong>
@@ -120,6 +120,11 @@ data is exported as CSV next to each iteration for deeper analysis.</p>
         <a class="card" href="10/index.html">
           <h3>Iteration 10</h3>
           <p class="muted">Iteration 10</p>
+          <div class="verdict llm">Winner: LLM</div>
+        </a>
+        <a class="card" href="14/index.html">
+          <h3>Iteration 14</h3>
+          <p class="muted">WFC hand-rule baseline with 0 polish passes (polish ablation point): 8 maps/variant, seed 1, mutation 0.08, max restarts 20. LLM side: latest gpt-5.2 maps (partial 20-map run, first 8 per variant where available, 143 maps)</p>
           <div class="verdict llm">Winner: LLM</div>
         </a></div>
 </div></body></html>

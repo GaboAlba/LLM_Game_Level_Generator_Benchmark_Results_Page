@@ -8,3 +8,4 @@
 7: WCF baseline run with defaults
 8: WCF with 100 generations and 100 candidates, and 10 elites.
 9: WCF with constraint table
+14: WFC hand-rule baseline with 0 polish passes (polish ablation point): 8 maps/variant, seed 1, mutation 0.08, max restarts 20. LLM side: latest gpt-5.2 maps (partial 20-map run, first 8 per variant where available, 143 maps)
