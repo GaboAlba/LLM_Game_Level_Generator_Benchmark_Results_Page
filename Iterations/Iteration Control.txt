@@ -11,3 +11,4 @@
 12: Final WFC baseline with hand-written rules: 20 maps/variant, seed 1, polish 5000 passes (smbtile 500), mutation 0.08, max restarts 20. LLM side: latest gpt-5.2 maps (partial 20-map run, 381 of 420 maps)
 13: Final WFC baseline with rules learned from a GA corpus (6 GA maps/variant: pop 300, gens 300, elites 30, mutation 0.01, polish 300): 20 maps/variant, seed 1, polish 5000 passes (smbtile 500), mutation 0.08, max restarts 20. LLM side: same 381 gpt-5.2 maps as iteration 12
 14: WFC hand-rule baseline with 0 polish passes (polish ablation point): 8 maps/variant, seed 1, mutation 0.08, max restarts 20. LLM side: latest gpt-5.2 maps (partial 20-map run, first 8 per variant where available, 143 maps)
+15: GA baseline with 0 polish passes (polish ablation point, GA side): pop 300, gens 300, elites 30, mutation 0.01, crossover 0.7, tournament 3, 8 maps/variant, seed 1. LLM side: same gpt-5.2 maps as iteration 14 (first 8 per variant where available, 143 maps)
